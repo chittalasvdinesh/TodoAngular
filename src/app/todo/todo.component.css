@@ -1,0 +1,16 @@
+.submit-btn{
+    background-color: green;
+    color: white;
+    margin: 8px 8px 20px 8px;
+    width: 10%;
+}
+
+.remove-btn{
+    display: inline;
+    background-color: red;
+    color: white;
+}
+
+.heading{
+    display: inline-block;
+}

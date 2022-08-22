@@ -1,0 +1,12 @@
+<div>
+    <form (submit)="addTodo()">
+        <input type="text" name="inputValue" placeholder="Enter Todo" [(ngModel)]="inputValue"/>
+        <br/>
+        <input type="submit" class="submit-btn"/>
+    </form>
+    <div *ngFor="let todo of todoList">
+        <h1 class="heading">{{todo}}</h1>
+        <button (click)="removeTodo(todo)" class="remove-btn">Remove</button>
+    </div>
+  
+</div>
